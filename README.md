@@ -31,7 +31,9 @@ py manage.py runserver
 ## Funcionalidades
 
 Una vez levantado, se podra observar una pagina de inicio con un pie de pagina mostrando las distintas funcionalidades de inicio, registro, inicio de sesion, informacion, como titulo el nombre del Blog, etc. Luego, en la parte lateral derecha se observan dos tarjetas que muestran un buscador y la otra muestra los generos de las peliculas las cuales estan disponibles en el blog. 
-Basicamente, cada genero (Drama, Terror, Aventura, etc) es una Clase diferente por la cual se crean objetos que son las peliculas correspondientes a su genero. Ingresando a cualquiera de los botones disponibles podremos acceder a la seccion de su genero correspondiente, por ejemplo "Suspenso". Una vez ubicados ahi en el mismo apartado se nos agrega la opcion de hacer nuestro aporte con alguna pelicula, pudiendo agregar la informacion necesaria. Clickeando en este apartado nos llevara a 
+Basicamente, cada genero (Drama, Terror, Aventura, etc) es una Clase diferente por la cual se crean objetos que son las peliculas correspondientes a su genero. Ingresando a cualquiera de los botones disponibles podremos acceder a la seccion de su genero correspondiente, por ejemplo "Suspenso". Una vez ubicados ahi en el mismo apartado se nos agrega la opcion de hacer nuestro aporte con alguna pelicula, pudiendo agregar la informacion necesaria. Clickeando en este apartado nos llevara a otra seccion donde podremos cargar la informacion solicitada a la base de datos, una vez enviada la informacion nos redirecciona nuevamente a la seccion donde nos encontrabamos (Suspenso). Llegado a este punto, si deseamos buscar alguna pelicula de dicho genero sera posible hacerlo desde el buscador que se observa, donde buscara en la base de datos si existe la pelicula y de no ser asi nos redireccionara a otra pagina aclarandonos que no se ha encontrado la pelicula que se busca.
+
+A simples rasgos, las funcionalidades de esta primer entrega consisten en lo anteriormente mencionado.
 
 ## Herramientas usadas
 
