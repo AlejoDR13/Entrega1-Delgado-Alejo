@@ -48,71 +48,27 @@ A simples rasgos, las funcionalidades de esta primer entrega consisten en lo ant
 
 ## Backend
 
-Cada Modelo será creado de la siguiente manera: 
+Cada Modelo (Genero) será creado de la siguiente manera: 
 
-🌱 Post: Cada post será según lo siguiente:
-
-|    Campo      |   Tipo        |   Valor       |
-| ------------- | ------------- | ------------- |
-|    titulo     |   CharField   |   titulo      |
-|   subtitulo   |   CharField   |   subtitulo   |
-|      fecha    |   DateField   |    fecha      |
-|   texto       |   CharField   |   texto       |
-
-🌱 PostNoticias: Cada Post de noticias será según lo siguiente:
+ Peliculas(objects): Cada pelicula independientemente del genero tendran el mismo formato, lo que las diferenciara sera su clase. El modelo general es el siguiente:
 
 |    Campo      |   Tipo        |   Valor       |
 | ------------- | ------------- | ------------- |
 |    titulo     |   CharField   |   titulo      |
-|   subtitulo   |   CharField   |   subtitulo   |
-|      fecha    |   DateField   |    fecha      |
-|   texto       |   CharField   |   texto       |
+|   direccion   |   CharField   |   subtitulo   |
+|     estreno   |   DateField   |    fecha      |
+|   duracion    | IntegerField  |   texto       |
+|   epigrafe    |   CharField   |   texto       |
 
+Modelos(class): Las clases creadas son las siguientes:
 
-🌱 PostReviews: Cada Post de reviews será según lo siguiente:
-
-|    Campo      |   Tipo        |   Valor       |
+|   Nombre     |   Tipo        |   Valor       |
 | ------------- | ------------- | ------------- |
-|    titulo     |   CharField   |   titulo      |
-|   subtitulo   |   CharField   |   subtitulo   |
-|      fecha    |   DateField   |    fecha      |
-|   texto       |   CharField   |   texto       |
+|   Drama    |   CharField   |   titulo      |
+|   Terror  |   CharField   |   subtitulo   |
+|      Aventura   |   DateField   |    fecha      |
+|   Ciencia Ficcion      |   CharField   |   texto       |
+|   Thriller      |   CharField   |   texto       |
+|   Suspenso      |   CharField   |   texto       |
 
-
-🌱 PostGaming: Cada Post de gaming será según lo siguiente:
-
-|    Campo      |   Tipo        |   Valor       |
-| ------------- | ------------- | ------------- |
-|    titulo     |   CharField   |   titulo      |
-|   subtitulo   |   CharField   |   subtitulo   |
-|      fecha    |   DateField   |    fecha      |
-|   texto       |   CharField   |   texto       |
-
-🌱 PostSoftware: Cada Post de software será según lo siguiente:
-
-|    Campo      |   Tipo        |   Valor       |
-| ------------- | ------------- | ------------- |
-|    titulo     |   CharField   |   titulo      |
-|   subtitulo   |   CharField   |   subtitulo   |
-|      fecha    |   DateField   |    fecha      |
-|   texto       |   CharField   |   texto       |
-
-
-🌱 PostHardware: Cada Post de hardware será según lo siguiente:
-
-|    Campo      |   Tipo        |   Valor       |
-| ------------- | ------------- | ------------- |
-|    titulo     |   CharField   |   titulo      |
-|   subtitulo   |   CharField   |   subtitulo   |
-|      fecha    |   DateField   |    fecha      |
-|   texto       |   CharField   |   texto       |
-
-
-🌱 Contacto: Cada contacto será según lo siguiente:
-
-|    Campo      |   Tipo        |   Valor       |
-| ------------- | ------------- | ------------- |
-|    nombre     |   CharField   |   nombre      |
-|   email       |   EmailField  |   email       |
-|   consulta    |   CharField   |    consulta   |
 
