@@ -8,9 +8,9 @@
 
 <body>
 
-    <p> Se encontro: {{titulo}}</p>
-
     {% if peliculas %}
+
+    <p> Se encontro: {{titulo}}</p>
 
     <ul>
         {% for i in peliculas %}
@@ -21,6 +21,10 @@
         {% endfor %}
     </ul>
 
+    {% else %}
+
+    <p> No se encontro {{titulo}}</p>
+    
     {% endif %}
 
 </body>

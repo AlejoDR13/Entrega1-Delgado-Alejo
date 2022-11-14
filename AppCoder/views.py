@@ -43,7 +43,7 @@ def crear_drama(request):
 
 def buscar_drama(request):
 
-    if request.GET["titulo"]:
+    if request.GET.get("titulo", False):
         titulo = request.GET["titulo"]
 
         peliculas = Drama.objects.filter(titulo__icontains=titulo)
@@ -81,7 +81,7 @@ def crear_terror(request):
 
 def buscar_terror(request):
 
-    if request.GET["titulo"]:
+    if request.GET.get("titulo", False):
         titulo = request.GET["titulo"]
 
         peliculas = Terror.objects.filter(titulo__icontains=titulo)
@@ -119,7 +119,7 @@ def crear_aventura(request):
 
 def buscar_aventura(request):
 
-    if request.GET["titulo"]:
+    if request.GET.get("titulo", False):
         titulo = request.GET["titulo"]
 
         peliculas = Aventura.objects.filter(titulo__icontains=titulo)
@@ -157,7 +157,7 @@ def crear_cienciaficcion(request):
 
 def buscar_cienciaficcion(request):
 
-    if request.GET["titulo"]:
+    if request.GET.get("titulo", False):
         titulo = request.GET["titulo"]
 
         peliculas = Ciencia_Ficcion.objects.filter(titulo__icontains=titulo)
@@ -195,7 +195,7 @@ def crear_thriller(request):
 
 def buscar_thriller(request):
 
-    if request.GET["titulo"]:
+    if request.GET.get("titulo", False):
         titulo = request.GET["titulo"]
 
         peliculas = Thriller.objects.filter(titulo__icontains=titulo)
@@ -233,7 +233,7 @@ def crear_suspenso(request):
 
 def buscar_suspenso(request):
 
-    if request.GET["titulo"]:
+    if request.GET.get("titulo", False):
         titulo = request.GET["titulo"]
 
         peliculas = Suspenso.objects.filter(titulo__icontains=titulo)
