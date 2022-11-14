@@ -48,7 +48,7 @@ A simples rasgos, las funcionalidades de esta primer entrega consisten en lo ant
 
 ## Backend
 
-# models.py
+### models.py
 Cada Modelo (Genero) será creado de la siguiente manera: 
 
  Peliculas(objects): Cada pelicula independientemente del genero tendran el mismo formato, lo que las diferenciara sera su clase. El modelo general es el siguiente:
