@@ -1,0 +1,45 @@
+{% extends 'AppCoder\templates\AppCoder\base1.html' %}
+
+{%load static %}
+
+{% block ContenidoDinamico1%}
+
+<h1 class="fw-bolder">Aventura</h1>
+
+{% endblock %}
+
+
+{% block ContenidoDinamico2%}
+
+<a href="#!"><img class="card-img-top" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/10/mejores-peliculas-aventuras.jpg?itok=XAsZEqsN" alt="..." /></a>
+
+{% endblock  %}
+
+
+{% block ContenidoDinamico3%}
+
+<h2 class="card-title">¡Aventuras!</h2>
+<p class="card-text">En este apartado se encuentra todo tipo bla bla</p>
+
+{% endblock %}
+
+{% block ContenidoDinamico4%}
+<li><a href="{% url 'AgregarAventura' %}">Agregar pelicula</a></li>
+{% endblock%}
+
+{% block ContenidoDinamico5%}
+
+<p>
+    <form action="/AppCoder/buscar_aventura/" method="GET">
+
+        <input type="text" name="titulo" id="titulo">
+
+        <input type="submit" value="Buscar">
+</p>
+
+{% endblock %}
+
+
+{% block ContenidoDinamico6%}
+<!--  ACA IRIAN LAS TARJETAS CON ALGUNOS POSTS DE PELICULAS  -->
+{% endblock %}

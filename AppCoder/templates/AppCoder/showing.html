@@ -1,0 +1,28 @@
+{% extends 'AppCoder\templates\AppCoder\base2.html' %}
+
+{%load static %}
+
+{% block ContenidoQueCambia%}
+
+<h1 class="fw-bolder">Resultado de tu busqueda</h1>
+
+<body>
+
+    <p> Se encontro: {{titulo}}</p>
+
+    {% if peliculas %}
+
+    <ul>
+        {% for i in peliculas %}
+        <li>Director: {{ i.direccion }}</li>            
+        <li>Estreno: {{ i.estreno }}</li>
+        <li>Duracion: {{ i.duracion }} min</li>
+        <li>Epigrafe: {{ i.epigrafe }}</li>
+        {% endfor %}
+    </ul>
+
+    {% endif %}
+
+</body>
+
+{% endblock %}
