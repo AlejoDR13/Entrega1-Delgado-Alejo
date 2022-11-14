@@ -37,9 +37,9 @@ A simples rasgos, las funcionalidades de esta primer entrega consisten en lo ant
 
 ## Herramientas usadas
 
-🛠️ Python
+🛠️ Python (Version 3.7.0)
 
-🛠️ Django
+🛠️ Django (Version 3.2.16)
 
 🛠️ HTML
 
@@ -73,10 +73,60 @@ Modelos(class): Las clases creadas son las siguientes:
 |   Suspenso      |  
 
 ### forms.py
+Cada Formularfue creado de la siguiente manera: 
+
+Crear"Clase"Form(forms.form):  El formato de cada formulario en general es el siguiente:
+
+|    Campo      |   Tipo        |   Valor       |
+| ------------- | ------------- | ------------- |
+|    titulo     |   CharField   |   titulo      |
+|   direccion   |   CharField   |   subtitulo   |
+|     estreno   |   DateField   |    fecha      |
+|   duracion    | IntegerField  |   texto       |
+|   epigrafe    |   CharField   |   texto       |
+
+Formularios(forms): Los formularios creados son las siguientes:
+
+|   Nombre     |  
+| ------------- |
+|   CrearDramaForm    | 
+|   CrearTerrorForm  | 
+|      CrearAventuraForm   | 
+|   CrearCiencia FiccionForm      |  
+|   CrearThrillerForm      | 
+|   CrearSuspensoForm      |  
 
 ### views.py
+En las vistas se crearon tres funciones, la primera para renderizar lo que se requiere mostrar, una funcion para crear un objeto (pelicula) de tal genero genero y por ultimo una funcion para buscar una pelicula que se encuentre dentro de dicho genero (clase). En sitesis se observa asi:
+
+```sh
+def "genero"(request):...
+
+def crear_"genero"(request):...
+
+def buscar_"genero"(request):...
+```
+
 
 ### templates
+Las templates se utilizo una plantilla como referencia modificada por preferencia, la misma se descargo desde: 
 
+``` sh
+https://startbootstrap.com/template/blog-home
+```
 
+Luego, en base a esta templates, se crearon dos como plantillas, llamadas:
+
+```sh
+base1.html
+base2.html
+```
+
+Donde se utilizaron Bloques para poder manipular contenido dinamico en funcion en donde se posicionen en la pagina, para poder variar textos, imagenes, posts, etc. Esto se hizo con:
+
+```sh
+{% block ContenidoDinamicoX%}
+
+{% endblock %}
+```
 
