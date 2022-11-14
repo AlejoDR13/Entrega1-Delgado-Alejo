@@ -1,10 +1,10 @@
-# Entrega1 - Delgado Alejo
+# Entrega 1
  
- # Gaming Zone
+# PeliBlog
 
-*Franco Nicolás Jones y Florencia Hnatiuk*👋
+*Por Delgado Alejo*👋
 
-> Este es un proyecto realizado para el curso de Python en coderhouse. Se trata de un blog en el que podrás navegar y crear posts categorizados..
+> Este es un proyecto que se realizó para el curso de Python en CoderHouse, el mismo consiste en un Blog de peliculas, donde se podrán agregar peliculas con su correspondiente informacion y una reseña para poder dar espacio al debate u opiniones en una seccion de comentarios. Al ser la primer entrega, solo se encuentran disponibles las funciones de agregar y buscar peliculas. Posteriormente se desea implementar la seccion de comentarios junto a la posibilidad de poder logearse en dicho blog para poder ser identificada las personas que interactuen. 
 
 ## Installation git clone
 
