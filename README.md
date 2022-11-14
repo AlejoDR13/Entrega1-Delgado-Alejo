@@ -72,4 +72,11 @@ Modelos(class): Las clases creadas son las siguientes:
 |   Thriller      | 
 |   Suspenso      |  
 
+### forms.py
+
+### views.py
+
+### templates
+
+
 
