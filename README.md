@@ -48,6 +48,7 @@ A simples rasgos, las funcionalidades de esta primer entrega consisten en lo ant
 
 ## Backend
 
+# models.py
 Cada Modelo (Genero) será creado de la siguiente manera: 
 
  Peliculas(objects): Cada pelicula independientemente del genero tendran el mismo formato, lo que las diferenciara sera su clase. El modelo general es el siguiente:
@@ -62,13 +63,13 @@ Cada Modelo (Genero) será creado de la siguiente manera:
 
 Modelos(class): Las clases creadas son las siguientes:
 
-|   Nombre     |   Tipo        |   Valor       |
-| ------------- | ------------- | ------------- |
-|   Drama    |   CharField   |   titulo      |
-|   Terror  |   CharField   |   subtitulo   |
-|      Aventura   |   DateField   |    fecha      |
-|   Ciencia Ficcion      |   CharField   |   texto       |
-|   Thriller      |   CharField   |   texto       |
-|   Suspenso      |   CharField   |   texto       |
+|   Nombre     |  
+| ------------- |
+|   Drama    | 
+|   Terror  | 
+|      Aventura   | 
+|   Ciencia Ficcion      |  
+|   Thriller      | 
+|   Suspenso      |  
 
 
