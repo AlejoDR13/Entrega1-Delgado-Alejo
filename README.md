@@ -130,3 +130,6 @@ Donde se utilizaron Bloques para poder manipular contenido dinamico en funcion e
 {% endblock %}
 ```
 
+## Diagrama Entidad Relacion
+
+<img src="/Diagrama ER.png">
